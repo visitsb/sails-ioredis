@@ -2,7 +2,7 @@
  * Adapter dependencies
  */
 
-var Driver = require('machinepack-redis');
+var Driver = require('machinepack-ioredis');
 
 
 // Keep track of all the active datastores registered by sails-redis.
@@ -16,7 +16,7 @@ var _activeDatastores = {};
 
 module.exports = {
 
-  identity: 'sails-redis',
+  identity: 'sails-ioredis',
 
   adapterApiVersion: 1,
 
@@ -36,11 +36,10 @@ module.exports = {
 
     // Miscellaneous options:
     // - - - - - - - - - - - - - - - - - - - -
-    return_buffers: false,//eslint-disable-line camelcase
-    detect_buffers: false,//eslint-disable-line camelcase
-    socket_nodelay: true,//eslint-disable-line camelcase
-    no_ready_check: false,//eslint-disable-line camelcase
-    enable_offline_queue: true//eslint-disable-line camelcase
+    dropBufferSupport: false,
+    noDelay: true,
+    enableReadyCheck: false,
+    enableOfflineQueue: true
     // - - - - - - - - - - - - - - - - - - - -
   },
 
