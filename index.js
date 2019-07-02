@@ -16,7 +16,7 @@ var _activeDatastores = {};
 
 module.exports = {
 
-  identity: 'sails-ioredis',
+  identity: 'sails-ioredis2',
 
   adapterApiVersion: 1,
 
@@ -30,7 +30,8 @@ module.exports = {
 
     // Standard configuration:
     // - - - - - - - - - - - - - - - - - - - -
-    url: 'redis://localhost:6379',
+    host: 'localhost',
+    port: 6379,
     onUnexpectedFailure: undefined,//< See https://github.com/treelinehq/machinepack-redis/blob/277f0fb796ea538d7ae281a0f8fa90f8b004bb45/machines/create-manager.js#L31-L44
     // - - - - - - - - - - - - - - - - - - - -
 

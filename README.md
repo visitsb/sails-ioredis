@@ -99,6 +99,11 @@ cache: {
 
   // Other available low-level options can also be configured here.
   // (see below for more information)
+  //
+  // You can use host, port keys instead of url too
+  // host: "redis",
+  // port: 6379,
+  // db: 0
 },
 ```
 
