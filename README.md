@@ -121,12 +121,12 @@ All [options](https://github.com/luin/ioredis/blob/master/API.md#new-redisport-h
 For more examples, or if you get stuck or have questions, click [here](http://sailsjs.com/support).
 
 
-## Bugs &nbsp; [![NPM version](https://badge.fury.io/js/sails-redis.svg)](http://npmjs.com/package/sails-redis)
+## Bugs &nbsp; [![NPM version](https://badge.fury.io/js/sails-ioredis2.svg)](http://npmjs.com/package/sails-ioredis2)
 
 To report a bug, [click here](http://sailsjs.com/bugs).
 
 
-## Contributing &nbsp; [![Build Status](https://travis-ci.org/balderdashy/sails-redis.svg?branch=master)](https://travis-ci.org/balderdashy/sails-redis)
+## Contributing &nbsp; [![Build Status](https://travis-ci.org/visitsb/sails-ioredis.svg?branch=master)](https://travis-ci.org/visitsb/sails-ioredis)
 
 Please observe the guidelines and conventions laid out in the [Sails project contribution guide](http://sailsjs.com/contribute) when opening issues or submitting pull requests.
 
