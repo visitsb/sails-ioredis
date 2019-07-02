@@ -22,7 +22,7 @@ This is a fork of existing [sails-redis](https://github.com/balderdashy/sails-re
 Install is through NPM.
 
 ```bash
-npm install sails-ioredis
+npm install sails-ioredis2
 ```
 
 #### Getting started
@@ -94,7 +94,7 @@ For example, in a Sails app, add the config below to your [`config/datastores.js
 
 ```javascript
 cache: {
-  adapter: 'sails-redis',
+  adapter: 'sails-ioredis2',
   url: 'redis://localhost:6379',
 
   // Other available low-level options can also be configured here.
@@ -125,7 +125,7 @@ To report a bug, [click here](http://sailsjs.com/bugs).
 
 Please observe the guidelines and conventions laid out in the [Sails project contribution guide](http://sailsjs.com/contribute) when opening issues or submitting pull requests.
 
-[![NPM](https://nodei.co/npm/sails-ioredis.png?downloads=true)](http://npmjs.com/package/sails-ioredis)
+[![NPM](https://nodei.co/npm/sails-ioredis2.png?downloads=true)](http://npmjs.com/package/sails-ioredis2)
 
 
 ## Acknowledgements

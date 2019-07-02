@@ -1,5 +1,5 @@
 {
-  "name": "sails-ioredis",
+  "name": "sails-ioredis2",
   "version": "1.1.1",
   "description": "A lightweight Redis adapter for Sails / Node.js apps.  Useful for caching.",
   "author": "The Sails Company",
